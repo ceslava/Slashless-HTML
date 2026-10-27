@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 — 2026-10-27
+
+**English**
+- New extension icon.
+
+**Español**
+- Nuevo icono de la extensión.
+
 ## 1.0.0 — 2026-10-27
 
 **English**
