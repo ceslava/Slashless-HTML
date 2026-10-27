@@ -1,3 +1,5 @@
+<p align="center"><img src="images/icon.png" width="128" height="128" alt="Slashless HTML"></p>
+
 # Slashless HTML
 
 **English** · [Español](#español)

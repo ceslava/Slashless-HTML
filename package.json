@@ -2,6 +2,7 @@
   "name": "slashless-html",
   "displayName": "%displayName%",
   "description": "%description%",
+  "icon": "images/icon.png",
   "version": "1.0.0",
   "publisher": "ceslava",
   "author": {
@@ -62,5 +63,9 @@
     "package": "npx --yes @vscode/vsce package",
     "vendor-prettier": "node scripts/vendor-prettier.js"
   },
-  "prettierVersion": "3.8.1"
+  "prettierVersion": "3.8.1",
+  "galleryBanner": {
+    "color": "#1e1b4b",
+    "theme": "dark"
+  }
 }
