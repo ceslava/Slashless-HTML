@@ -9,13 +9,13 @@
     "url": "https://ceslava.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/ceslava/slashless-html#readme",
+  "homepage": "https://github.com/ceslava/Slashless-HTML#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ceslava/slashless-html.git"
+    "url": "https://github.com/ceslava/Slashless-HTML.git"
   },
   "bugs": {
-    "url": "https://github.com/ceslava/slashless-html/issues"
+    "url": "https://github.com/ceslava/Slashless-HTML/issues"
   },
   "engines": {
     "vscode": "^1.74.0"

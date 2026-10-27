@@ -40,7 +40,7 @@ In **HTML5**, however, that slash:
 
 1. Open the **Extensions** view in VS Code (`Ctrl+Shift+X`, on Mac `Cmd+Shift+X`).
 2. Click the **…** menu at the top of the view → **Install from VSIX…**
-3. Pick the `slashless-html-x.y.z.vsix` file (available in [Releases](https://github.com/ceslava/slashless-html/releases)).
+3. Pick the `slashless-html-x.y.z.vsix` file (available in [Releases](https://github.com/ceslava/Slashless-HTML/releases)).
 
 **First use:** when you open an HTML file, VS Code asks whether to use it as the HTML formatter: answer **Yes, use it**. If the question doesn't appear, open the Command Palette (`Ctrl+Shift+P`) and run **Slashless HTML: Use as the HTML formatter**.
 
@@ -136,7 +136,7 @@ Sin embargo, en **HTML5** esa barra:
 
 1. En VS Code, abre el panel de **Extensiones** (`Ctrl+Shift+X`, en Mac `Cmd+Shift+X`).
 2. Pulsa el menú **…** de la parte superior del panel → **Instalar desde VSIX…**
-3. Elige el archivo `slashless-html-x.y.z.vsix` (disponible en [Releases](https://github.com/ceslava/slashless-html/releases)).
+3. Elige el archivo `slashless-html-x.y.z.vsix` (disponible en [Releases](https://github.com/ceslava/Slashless-HTML/releases)).
 
 **Primer uso:** al abrir un archivo HTML, VS Code pregunta si quieres usarla como formateador de HTML: responde **Sí, usarla**. Si no aparece la pregunta, abre la paleta de comandos (`Ctrl+Shift+P`) y ejecuta **Slashless HTML: Usar como formateador de HTML**.
 
