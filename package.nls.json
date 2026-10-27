@@ -1,0 +1,6 @@
+{
+  "displayName": "HTML sin barra — Prettier without the trailing slash",
+  "description": "Formats HTML with Prettier, but without the trailing slash on void elements (<img>, <br>, <input>, <meta>, <link>…). Based on Prettier.",
+  "command.setAsDefaultFormatter": "Use as the HTML formatter",
+  "command.formatDocument": "Format this file"
+}

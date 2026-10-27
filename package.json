@@ -1,0 +1,65 @@
+{
+  "name": "html-sin-barra",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "ceslava",
+  "author": {
+    "name": "Cristian Eslava",
+    "url": "https://ceslava.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ceslava/Prettier-no-HTML-slash#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceslava/Prettier-no-HTML-slash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ceslava/Prettier-no-HTML-slash/issues"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "keywords": [
+    "html",
+    "prettier",
+    "formatter",
+    "void elements",
+    "self-closing",
+    "trailing slash",
+    "html5"
+  ],
+  "activationEvents": [
+    "onLanguage:html"
+  ],
+  "main": "./src/extension.js",
+  "l10n": "./l10n",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "htmlSinBarra.setAsDefaultFormatter",
+        "title": "%command.setAsDefaultFormatter%",
+        "category": "HTML sin barra"
+      },
+      {
+        "command": "htmlSinBarra.formatDocument",
+        "title": "%command.formatDocument%",
+        "category": "HTML sin barra"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "package": "npx --yes @vscode/vsce package",
+    "vendor-prettier": "node scripts/vendor-prettier.js"
+  },
+  "prettierVersion": "3.8.1"
+}

@@ -1,0 +1,8 @@
+{
+  "HTML sin barra: could not format the file. {0}": "HTML sin barra: no se pudo formatear el archivo. {0}",
+  "Done: HTML files will be formatted without the slash in <img>, <br>, <input>…": "Listo: los archivos HTML se formatearán sin la barra en <img>, <br>, <input>…",
+  "Yes, use it": "Sí, usarla",
+  "Do you want “HTML sin barra” to format your HTML files?": "¿Quieres que «HTML sin barra» formatee tus archivos HTML?",
+  "Not now": "Ahora no",
+  "Open an HTML file to format it.": "Abre un archivo HTML para formatearlo."
+}

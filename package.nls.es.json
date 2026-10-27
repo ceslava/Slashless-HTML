@@ -1,0 +1,6 @@
+{
+  "displayName": "HTML sin barra — Prettier sin la barra final",
+  "description": "Formatea HTML con Prettier, pero sin la barra final en los elementos vacíos (<img>, <br>, <input>, <meta>, <link>…). Basada en Prettier.",
+  "command.setAsDefaultFormatter": "Usar como formateador de HTML",
+  "command.formatDocument": "Formatear este archivo"
+}
