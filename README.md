@@ -4,6 +4,8 @@
 
 **English** · [Español](#español)
 
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/ceslava.slashless-html?label=VS%20Code%20Marketplace&color=1e1b4b)](https://marketplace.visualstudio.com/items?itemName=ceslava.slashless-html)
+
 An HTML formatter for VS Code that writes void elements **without the trailing slash**, the way HTML5 defines them.
 
 ```html
@@ -36,7 +38,7 @@ In **HTML5**, however, that slash:
 
 ## Installation
 
-**From the Marketplace:** search for **Slashless HTML** in the Extensions view.
+**From the Marketplace:** install it from its [Marketplace page](https://marketplace.visualstudio.com/items?itemName=ceslava.slashless-html), or search for **Slashless HTML** in the VS Code Extensions view.
 
 **From a `.vsix` file:**
 
@@ -132,7 +134,7 @@ Sin embargo, en **HTML5** esa barra:
 
 ### Instalación
 
-**Desde el Marketplace:** busca **Slashless HTML** en el panel de Extensiones.
+**Desde el Marketplace:** instálala desde su [página del Marketplace](https://marketplace.visualstudio.com/items?itemName=ceslava.slashless-html) o busca **Slashless HTML** en el panel de Extensiones de VS Code.
 
 **Desde un archivo `.vsix`:**
 
