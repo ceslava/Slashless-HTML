@@ -1,5 +1,5 @@
 {
-  "name": "html-sin-barra",
+  "name": "slashless-html",
   "displayName": "%displayName%",
   "description": "%description%",
   "version": "1.0.0",
@@ -9,13 +9,13 @@
     "url": "https://ceslava.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/ceslava/Prettier-no-HTML-slash#readme",
+  "homepage": "https://github.com/ceslava/slashless-html#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ceslava/Prettier-no-HTML-slash.git"
+    "url": "https://github.com/ceslava/slashless-html.git"
   },
   "bugs": {
-    "url": "https://github.com/ceslava/Prettier-no-HTML-slash/issues"
+    "url": "https://github.com/ceslava/slashless-html/issues"
   },
   "engines": {
     "vscode": "^1.74.0"
@@ -25,12 +25,13 @@
   ],
   "keywords": [
     "html",
-    "prettier",
+    "html5",
     "formatter",
     "void elements",
     "self-closing",
     "trailing slash",
-    "html5"
+    "slash",
+    "prettier"
   ],
   "activationEvents": [
     "onLanguage:html"
@@ -45,14 +46,14 @@
   "contributes": {
     "commands": [
       {
-        "command": "htmlSinBarra.setAsDefaultFormatter",
+        "command": "slashlessHtml.setAsDefaultFormatter",
         "title": "%command.setAsDefaultFormatter%",
-        "category": "HTML sin barra"
+        "category": "Slashless HTML"
       },
       {
-        "command": "htmlSinBarra.formatDocument",
+        "command": "slashlessHtml.formatDocument",
         "title": "%command.formatDocument%",
-        "category": "HTML sin barra"
+        "category": "Slashless HTML"
       }
     ]
   },

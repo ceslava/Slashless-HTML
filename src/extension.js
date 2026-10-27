@@ -42,7 +42,7 @@ async function editsFor(document, editorOptions) {
     return [vscode.TextEdit.replace(all, result)];
   } catch (err) {
     const msg = (err && err.message ? err.message : String(err)).split("\n")[0];
-    vscode.window.showWarningMessage(vscode.l10n.t("HTML sin barra: could not format the file. {0}", msg));
+    vscode.window.showWarningMessage(vscode.l10n.t("Slashless HTML: could not format the file. {0}", msg));
     return [];
   }
 }
@@ -67,7 +67,7 @@ async function askIfNeeded(context) {
   await context.globalState.update(ASKED_KEY, true);
   const yes = vscode.l10n.t("Yes, use it");
   const answer = await vscode.window.showInformationMessage(
-    vscode.l10n.t("Do you want “HTML sin barra” to format your HTML files?"),
+    vscode.l10n.t("Do you want “Slashless HTML” to format your HTML files?"),
     yes, vscode.l10n.t("Not now"));
   if (answer === yes) await setAsDefaultFormatter();
 }
@@ -78,8 +78,8 @@ function activate(context) {
       [{ language: "html" }],
       { provideDocumentFormattingEdits: (doc, opts) => editsFor(doc, opts) }
     ),
-    vscode.commands.registerCommand("htmlSinBarra.setAsDefaultFormatter", setAsDefaultFormatter),
-    vscode.commands.registerCommand("htmlSinBarra.formatDocument", async () => {
+    vscode.commands.registerCommand("slashlessHtml.setAsDefaultFormatter", setAsDefaultFormatter),
+    vscode.commands.registerCommand("slashlessHtml.formatDocument", async () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor || editor.document.languageId !== "html") {
         vscode.window.showInformationMessage(vscode.l10n.t("Open an HTML file to format it."));
